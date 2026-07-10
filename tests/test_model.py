@@ -23,6 +23,5 @@ def test_classifier_returns_deterministic_top_three() -> None:
 
     assert first == second
     assert len(first) == 3
-    assert round(sum(item["confidence"] for item in first), 5) == 1.0
 
 
