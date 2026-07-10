@@ -1,0 +1,22 @@
+[
+  { "id": "sample-01", "file": "argentina-street.jpg", "label": "Argentina", "outcome": "top1", "shift": 2 },
+  { "id": "sample-02", "file": "australia-coast.jpg", "label": "Australia", "outcome": "top1", "shift": 4 },
+  { "id": "sample-03", "file": "brazil-square.jpg", "label": "Brazil", "outcome": "top3", "shift": 5 },
+  { "id": "sample-04", "file": "canada-road.jpg", "label": "Canada", "outcome": "top1", "shift": 1 },
+  { "id": "sample-05", "file": "china-market.jpg", "label": "China", "outcome": "top1", "shift": 3 },
+  { "id": "sample-06", "file": "egypt-riverside.jpg", "label": "Egypt", "outcome": "top3", "shift": 6 },
+  { "id": "sample-07", "file": "france-cafe.jpg", "label": "France", "outcome": "top1", "shift": 2 },
+  { "id": "sample-08", "file": "germany-tram.jpg", "label": "Germany", "outcome": "top1", "shift": 8 },
+  { "id": "sample-09", "file": "india-highway.jpg", "label": "India", "outcome": "top1", "shift": 5 },
+  { "id": "sample-10", "file": "indonesia-beach.jpg", "label": "Indonesia", "outcome": "miss", "shift": 7 },
+  { "id": "sample-11", "file": "italy-alley.jpg", "label": "Italy", "outcome": "top3", "shift": 3 },
+  { "id": "sample-12", "file": "japan-crossing.jpg", "label": "Japan", "outcome": "top1", "shift": 4 },
+  { "id": "sample-13", "file": "kenya-safari.jpg", "label": "Kenya", "outcome": "top1", "shift": 2 },
+  { "id": "sample-14", "file": "mexico-zocalo.jpg", "label": "Mexico", "outcome": "top1", "shift": 6 },
+  { "id": "sample-15", "file": "morocco-medina.jpg", "label": "Morocco", "outcome": "miss", "shift": 9 },
+  { "id": "sample-16", "file": "norway-fjord.jpg", "label": "Norway", "outcome": "top1", "shift": 3 },
+  { "id": "sample-17", "file": "south-africa-city.jpg", "label": "South Africa", "outcome": "top3", "shift": 5 },
+  { "id": "sample-18", "file": "south-korea-subway.jpg", "label": "South Korea", "outcome": "top1", "shift": 4 },
+  { "id": "sample-19", "file": "spain-plaza.jpg", "label": "Spain", "outcome": "top1", "shift": 7 },
+  { "id": "sample-20", "file": "united-states-main-street.jpg", "label": "United States", "outcome": "top3", "shift": 8 }
+]

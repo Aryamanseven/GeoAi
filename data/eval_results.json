@@ -1,0 +1,42 @@
+{
+  "top1": 41.0,
+  "top3": 53.0,
+  "samples": 100,
+  "method": "CLIP ViT-B/32 + LoRA + MLP Head",
+  "baseline_comparison": {
+    "clip_zeroshot_published": 31.0,
+    "our_model": 41.0
+  },
+  "per_continent": {
+    "Africa": {
+      "top1": 30.0,
+      "top3": 50.0,
+      "samples": 30
+    },
+    "Europe": {
+      "top1": 43.5,
+      "top3": 56.5,
+      "samples": 23
+    },
+    "Oceania": {
+      "top1": 62.5,
+      "top3": 62.5,
+      "samples": 8
+    },
+    "Asia": {
+      "top1": 42.1,
+      "top3": 57.9,
+      "samples": 19
+    },
+    "North America": {
+      "top1": 50.0,
+      "top3": 50.0,
+      "samples": 12
+    },
+    "South America": {
+      "top1": 37.5,
+      "top3": 37.5,
+      "samples": 8
+    }
+  }
+}
