@@ -4,33 +4,8 @@ import {
 } from 'recharts';
 import { getEvalResults } from '../lib/api';
 
-export default function EvalDashboard() {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
-
-  useEffect(() => {
-    getEvalResults()
-      .then(res => {
-        setData(res);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error(err);
-        setError(true);
-        setLoading(false);
-      });
-  }, []);
-
-  if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-[500px]">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
-      </div>
-    );
-  }
-
-  if (error || !data) {
+export default function EvalDashboard({ data }) {
+  if (!data) {
     return (
       <div className="p-8 md:p-12">
         <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 max-w-2xl mx-auto text-center">
